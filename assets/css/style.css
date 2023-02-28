@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand:wght@600&display=swap');
 
+/* general css */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +9,13 @@
 }
 
 body {
-    font-family: quicksand, arial, helvetica, sans-serif;
+    font-family: oswald, arial, helvetica, sans-serif;
     font-weight: 600;
     color: #5c052e;
+}
+
+a { 
+    text-decoration: none;
 }
 
 /* home page background could be image of kitchen or food prep station but add transparency to it? */
@@ -17,3 +23,18 @@ body {
 /* could use similar idea for the background image for the other pages as well - see what works best */
 
 /* remember to add class and selector style rules for each bit you want to style, refer back to lessons and add them to readme when you do */
+
+/* headings and logo  */
+
+#logo {
+    float: center;
+    font-size: 300%;
+    text-align: center;
+    
+}
+
+h1, h2 {
+    font-family: quicksand, arial, helvetica, sans-serif;
+    letter-spacing: 4px;
+    color: #6e0826;
+}
