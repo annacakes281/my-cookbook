@@ -21,3 +21,4 @@ credits - reference any sources you use, section them into the areas e.g. media 
 - used meta data and boilerplate html from the love running project by the code institute that i recreated following the source code, copied some css code over from the love running project (https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
 - used font awsesome (https://fontawesome.com/)
 - used google fonts (https://fonts.google.com/)
+- recpie images used are all my own, i just used this image converter (website) to change the image file type from heic to jpg as the photos were taken on an iphone
