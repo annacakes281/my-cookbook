@@ -17,4 +17,6 @@ testing - go over the projects features and ensure they all work as intended, me
 deployment - how the project was deployed and on what platform, can include screenshots and include a deployment link
 
 credits - reference any sources you use, section them into the areas e.g. media (images, videos), content (text, icons, fonts, instructions)
-- used meta data and boilerplate html from the love running project
+- used meta data and boilerplate html from the love running project by the code institute that i recreated following the source code (https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+- used font awsesome (https://fontawesome.com/)
+- used google fonts (https://fonts.google.com/)
