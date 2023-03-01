@@ -33,8 +33,14 @@ a {
     
 }
 
-h1, h2 {
+h1 {
     font-family: quicksand, arial, helvetica, sans-serif;
     letter-spacing: 4px;
+    color: #6e0826;
+}
+
+h2 {
+    font-family: quicksand, arial, helvetica, sans-serif;
+    letter-spacing: 1px;
     color: #6e0826;
 }
