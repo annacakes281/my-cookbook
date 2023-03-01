@@ -71,3 +71,11 @@ ol li {
     font-family:Baloo-Tammudu-2;
     font-weight: 300;
   }
+
+  /* images */
+
+  #pizza-dough-ingredients {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
