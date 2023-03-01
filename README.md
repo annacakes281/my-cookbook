@@ -23,4 +23,10 @@ credits - reference any sources you use, section them into the areas e.g. media 
 
 - used font awsesome (https://fontawesome.com/)
 - used google fonts (https://fonts.google.com/)
-- recpie images used are all my own, i just used this image converter (website) to change the image file type from heic to jpg as the photos were taken on an iphone -->
+- recpie images used are all my own, i just used this image converter (https://image.online-convert.com/convert/jpeg-to-jpg) to convert images to jpg and this site to convert videos (https://www.movavi.com/support/how-to/how-to-convert-video-to-mp4.html) to mp4 
+- used hex colour picker https://imagecolorpicker.com/color-code/2596be
+
+
+
+
+-->
