@@ -27,7 +27,8 @@ credits - reference any sources you use, section them into the areas e.g. media 
 - recpie images used are all my own, i just used this image converter (https://image.online-convert.com/convert/jpeg-to-jpg) to convert images to jpg and this site to convert videos (https://www.movavi.com/support/how-to/how-to-convert-video-to-mp4.html) to mp4 
 - used hex colour picker https://imagecolorpicker.com/color-code/2596be
 - to check how to use checkbox feature for list items https://stackoverflow.com/questions/50649275/use-checkbox-for-list-style-type-in-unordered-list-in-html
-
+- used this to help style the checkbox to align in the middle of the text but edited the code a bit so that it worked with my font https://stackoverflow.com/questions/306252/how-to-align-checkboxes-and-their-labels-consistently-cross-browsers
+- my ordered lists werent showing with numbers so i used this to fix it https://stackoverflow.com/questions/2642067/ordered-list-ol-showing-up-un-numbered
 
 
 -->
