@@ -14,6 +14,8 @@ also include a features left to implement of any features youd like to add in th
 - added footer with links to facebook and instagram, also added a copyright logo as i have noticed this tends to be on majority of websites 
 - used checkbox feature for the unordered lists as this seemed more interactive for a user rather than buller points, it makes it easier knowing what you need and still need to get/do
 - used an class for the checkbox style as i didnt want all the inputs to follow that rule
+- sections for each of the different recipe sections to split the page up more for the design
+- images and videos use for the site are all mine, same as the recpie as its something i have been making myself for years
 
 
 testing - go over the projects features and ensure they all work as intended, mention how they work on vaious displays, also mention any bugs, whether fixed or not, and how they were fixed, also include the results from the validator testing and teh lighthouse tool results from dev tools, include any unfixed bugs and why they were unfixed e.g. time contraints being a valid reason, not knowing is not valid reason, any short comings in the framework for example and why this wasnt achieved - add screenshots for the testing parts 
