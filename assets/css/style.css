@@ -73,5 +73,11 @@ ol li {
   #pizza-dough-ingredients {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 40%;
+  }
+
+  .images {
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
   }
