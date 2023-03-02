@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&family=Oswald&family=Quicksand:wght@600&display=swap');
 
-/* general css */
+/* general css - any basic formatting for different elements throughout the html that I used */
 
 * {
     margin: 0;
@@ -16,17 +16,6 @@ body {
 
 a { 
     text-decoration: none;
-}
-
-footer {
-  clear: both;
-  position: relative;
-  height: 200px;
-  margin-top: -200px;
-}
-
-.intro {
-  clear: both;
 }
 
 /* home page background could be image of kitchen or food prep station but add transparency to it? */
@@ -55,6 +44,28 @@ h3 {
     font-family: quicksand, arial, helvetica, sans-serif;
     letter-spacing: 1px;
     color: #6e0826;
+}
+
+/* body content for general css */
+
+.about {
+  margin: auto;
+  margin-right: 3%;
+  text-align: center;
+  font-size: x-large;
+}
+
+.intro {
+  clear: both;
+}
+
+.spacing {
+  display: inline-block;
+  margin-left: 1%;
+  clear: both;
+  position: relative;
+  bottom:97px;
+  right: 1px;
 }
 
 /* navigational links */
@@ -148,9 +159,13 @@ ol li {
 
  /* footer  */
 
- footer { 
-  height: 150px;
- }
+ footer {
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-right: 3%;
+  /* margin-top: 300px; */
+}
 
  .socials {
   text-align: center;
