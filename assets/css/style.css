@@ -59,7 +59,7 @@ h3 {
   clear: both;
 }
 
-.spacing {
+.inline {
   display: inline-block;
   margin-left: 1%;
   clear: both;
@@ -157,6 +157,10 @@ ol li {
       width: 70%;
     }
 
+    .spacing
+    {
+      margin-top: 15%;
+    }
  /* footer  */
 
  footer {
