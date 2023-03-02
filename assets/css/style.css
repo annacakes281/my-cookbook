@@ -81,9 +81,12 @@ h3 {
 }
 
 #menu a:hover {
-  border-bottom: 1px solid #977C84;
+  border-bottom: 2px solid #8f6c8d;
 }
 
+.active {
+  border: 2px solid #8f6c8d;
+}
 
 /* lists */
 
