@@ -18,6 +18,12 @@ a {
     text-decoration: none;
 }
 
+/* background */
+
+body {
+  background-color: #eae9d5;
+}
+
 /* home page background could be image of kitchen or food prep station but add transparency to it? */
 
 /* could use similar idea for the background image for the other pages as well - see what works best */

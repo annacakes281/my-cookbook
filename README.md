@@ -37,4 +37,5 @@ credits - reference any sources you use, section them into the areas e.g. media 
 - images side by side https://www.w3schools.com/howto/howto_css_images_side_by_side.asp i did edit the code to my liking 
 - footer was sticking to top of page so i found a fix online - https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
 i liked the idea of the nav bar at the top of the page and underlined so i used the idea from love running but changed the code a bit to match how i wanted it to look, i also liked the active feature but i changed it to suit how i wanted it to look
+
 -->
