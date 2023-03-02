@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,13 +13,14 @@
     <title>My Cookbook</title>
 </head>
 <!-- REMEMEMBER TO ADD THE CLASSES AND ID VALUES TO ALL THE PAGES  -->
+
 <body>
     <header>
         <a href="index.html">
             <h1 id="logo">My Cookbook</h1>
         </a>
         <!-- add 2-3 images of different food here in a line, add an effect to the images maybe?, and a short descp "My Cookbook, all your cooking needs and wants", then add it in transparent box and display? see how this looks and decide -->
-        <nav> 
+        <nav>
             <!-- want these to display across the center top of the page? or make the heading center and these below the title or on the side, check using dev tools which way works best-->
             <!-- want whatever page is active to also display an underline or similar design of somesort, maybe a circle around it or sqaure, same as the love running -->
             <ul>
@@ -30,13 +32,18 @@
         </nav>
     </header>
 
-    <!-- add an about section to introduce this page and a photo of the pizza sauce  -->
-    <!-- add unordered list for the ingredients and instead of bullets add checkboxes for the ingredients, also add photos of the ingredients needed -->
-    <!-- make an ordered list for the steps in making the pizza sauce -->
-    <!-- link back to the making the actual pizza -->
-    <!-- include photos from the process of making the sauce -->
-    <!-- time and prep -->
-
+    <section>
+        <div>
+            <h2>How to make your own pizza sauce</h2>
+            <p>
+                In this section you will learn how to make your own home made pizza sauce, which can be used for the <a
+                    href="pizza-recipe.html">pizza</a>. Follow
+                along with this easy-to-make pizza sauce, which can also be used with other recipes such as pastas and
+                curries! Enjoying cooking! &#127869
+            </p>
+        </div>
+    </section>
+    <br>
     <section>
         <div>
             <h3>Pizza Sauce Equipment</h3>
@@ -61,7 +68,21 @@
         <div>
             <h3>Pizza Sauce Ingredients</h3>
             <ul class="main-list">
-                <!-- sauce ingredients image -->
+                <img src="/assets/images/sauce-ingredients.jpg" alt="Ingredients for the sauce" class="images">
+                <li>
+                    <input type="checkbox" class="checkbox"> 500g pot or box of passata
+                </li>
+                <li>
+                    <input type="checkbox" class="checkbox"> Salt and pepper to taste - I used a teaspoon of each in
+                    mine
+                </li>
+                <li>
+                    <input type="checkbox" class="checkbox"> 3 chopped garlic cloves - again to taste
+                </li>
+                <li>
+                    <input type="checkbox" class="checkbox"> Dried herbs (1/2 tablespoon) - I used thyme and oregano,
+                    1/2 tablespoon of each
+                </li>
             </ul>
         </div>
     </section>
@@ -70,7 +91,26 @@
         <div>
             <h3>Pizza Sauce Steps</h3>
             <ol class="main-list">
-                <!-- making sauce image 1 & 2 -->
+                <li>
+                    Pour the passata into a saucepan and bring to a simmer over a medium heat <input type="checkbox"
+                        class="checkbox">
+                </li>
+                <li>
+                    While the passata is being brought to a simmer, chop the garlic into small pieces <input
+                        type="checkbox" class="checkbox">
+                </li>
+                <li>
+                    Once the passata is simmering, add the garlic, salt and pepper, and the dried herbs, mix for 5
+                    minutes on a low-medium heat, ensuring that it is still simmering, taste and add more salt and
+                    pepper if necessary <strong>remember it will be hot so be careful</strong> <input type="checkbox"
+                        class="checkbox">
+                </li>
+                <img src="/assets/images/making-sauce.jpg" alt="Adding ingredients to the sauce" class="images">
+                <li> Once ready, take off heat and let it cool down completely before using the sauce for the <a
+                        href="pizza-recipe.html">pizza</a>
+                    <input type="checkbox" class="checkbox">
+                </li>
+                <img src="/assets/images/making-sauce-2.jpg" alt="Finished sauce" class="images">
             </ol>
         </div>
     </section>
@@ -81,11 +121,13 @@
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li><a href="https://instagram.com" taget="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li><i class="fa-regular fa-copyright"></i> Copyright 2023</li>
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li><i class="fa-regular fa-copyright"></i> Copyright 2023</li>
         </ul>
     </footer>
-<script src="https://kit.fontawesome.com/d06941e158.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d06941e158.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
