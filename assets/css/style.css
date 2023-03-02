@@ -82,4 +82,13 @@ ol li {
     border-radius: 40%;
   }
 
- 
+  .column {
+    float: left;
+    width: 10%;
+    padding: 1px; }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: inline;
+    }

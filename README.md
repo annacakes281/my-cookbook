@@ -33,5 +33,6 @@ credits - reference any sources you use, section them into the areas e.g. media 
 - used this to help style the checkbox to align in the middle of the text but edited the code a bit so that it worked with my font https://stackoverflow.com/questions/306252/how-to-align-checkboxes-and-their-labels-consistently-cross-browsers
 - my ordered lists werent showing with numbers so i used this to fix it https://stackoverflow.com/questions/2642067/ordered-list-ol-showing-up-un-numbered
 - to add an emoji i used https://www.w3schools.com/charsets/ref_emoji_smileys.asp
+- images side by side https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
 
 -->
