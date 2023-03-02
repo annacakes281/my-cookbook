@@ -16,6 +16,7 @@ also include a features left to implement of any features youd like to add in th
 - used an class for the checkbox style as i didnt want all the inputs to follow that rule
 - sections for each of the different recipe sections to split the page up more for the design
 - images and videos use for the site are all mine, same as the recpie as its something i have been making myself for years
+- features to add - search bar, types of cusine when they select there will be differnt types in tha tcategory, side bar to select, clickable images, log in, book marking
 
 
 testing - go over the projects features and ensure they all work as intended, mention how they work on vaious displays, also mention any bugs, whether fixed or not, and how they were fixed, also include the results from the validator testing and teh lighthouse tool results from dev tools, include any unfixed bugs and why they were unfixed e.g. time contraints being a valid reason, not knowing is not valid reason, any short comings in the framework for example and why this wasnt achieved - add screenshots for the testing parts 
@@ -35,5 +36,5 @@ credits - reference any sources you use, section them into the areas e.g. media 
 - to add an emoji i used https://www.w3schools.com/charsets/ref_emoji_smileys.asp
 - images side by side https://www.w3schools.com/howto/howto_css_images_side_by_side.asp i did edit the code to my liking 
 - footer was sticking to top of page so i found a fix online - https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
-i liked the idea of the nav bar at the top of the page and underlined so i used the idea from love running but changed the code a bit to match how i wanted it to look 
+i liked the idea of the nav bar at the top of the page and underlined so i used the idea from love running but changed the code a bit to match how i wanted it to look, i also liked the active feature but i changed it to suit how i wanted it to look
 -->
