@@ -33,6 +33,7 @@ credits - reference any sources you use, section them into the areas e.g. media 
 - used this to help style the checkbox to align in the middle of the text but edited the code a bit so that it worked with my font https://stackoverflow.com/questions/306252/how-to-align-checkboxes-and-their-labels-consistently-cross-browsers
 - my ordered lists werent showing with numbers so i used this to fix it https://stackoverflow.com/questions/2642067/ordered-list-ol-showing-up-un-numbered
 - to add an emoji i used https://www.w3schools.com/charsets/ref_emoji_smileys.asp
-- images side by side https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
-
+- images side by side https://www.w3schools.com/howto/howto_css_images_side_by_side.asp i did edit the code to my liking 
+- footer was sticking to top of page so i found a fix online - https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
+i liked the idea of the nav bar at the top of the page and underlined so i used the idea from love running but changed the code a bit to match how i wanted it to look 
 -->

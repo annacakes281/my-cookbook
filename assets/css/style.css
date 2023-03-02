@@ -18,6 +18,13 @@ a {
     text-decoration: none;
 }
 
+footer {
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
+}
+
 /* home page background could be image of kitchen or food prep station but add transparency to it? */
 
 /* could use similar idea for the background image for the other pages as well - see what works best */
@@ -30,6 +37,7 @@ a {
     float: center;
     font-size: 300%;
     text-align: center;
+    margin-right: 4%;
     
 }
 
@@ -44,6 +52,38 @@ h3 {
     letter-spacing: 1px;
     color: #6e0826;
 }
+
+/* navigational links */
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 2px;
+}
+
+#menu, #logo {
+  line-height: 50px;
+}
+
+#menu li {
+  float: left;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.menu {
+  float:none;
+  margin-top: 0.4%;
+  margin-left: 42.5%;
+}
+
+#menu a {
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #977C84;
+}
+
 
 /* lists */
 
@@ -87,8 +127,17 @@ ol li {
     width: 10%;
     padding: 1px; }
 
-    .row::after {
-      content: "";
+    .row {
+      /* content: ""; */
       clear: both;
       display: inline;
     }
+
+    .center {
+      display: block;
+      margin-top: 3%;
+      margin-left: 31%;
+      width: 70%;
+    }
+
+ 
