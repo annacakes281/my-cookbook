@@ -107,6 +107,10 @@ h3 {
   margin-bottom: 1.5%;
   margin-left:5%;
 }
+
+.margin-border {
+  margin-right: 25%;
+}
 /* navigational links */
 
 #menu {
@@ -195,41 +199,45 @@ ul {
   margin-left:42%
 }
 
+#recipe-link {
+  margin-top: 2%;
+}
 
 /* images */
 
 #pizza-dough {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 40%;
   margin: -1% 0 1% 7%;
 }
 
 #pizza-sauce {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 40%;
   margin: -1% 0 1% 0.5%;
 }
 
 #toppings {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 40%;
   margin: 0.5% 0 1% 2%;
 }
 
 .sauce {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 40%;
-  margin: 1% 0 0 1%;
+  margin: 1% 0 1% 1%;
 }
 
 .images {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 40%;
+  margin-right: 1%;
 }
 
 .column {
@@ -250,6 +258,44 @@ ul {
   width: 70%;
 }
 
+.pizza-topping-images {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -3% 1% 4%
+}
+
+.pizza-topping-single {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin-left: 4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.pizza-dough-images{
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -16% 1% 17%
+}
+
+.pizza-dough-single {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin-left: 15%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.pizza-videos {
+  margin-left: 17%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
 /* footer  */
 
 footer {
@@ -257,7 +303,6 @@ footer {
   position: relative;
   height: 200px;
   margin-right: 3%;
-  /* margin-top: 300px; */
 }
 
 .socials {
