@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&family=Oswald&family=Quicksand:wght@600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&family=Oswald&family=Quicksand:wght@600&family=Shantell+Sans:ital@1&display=swap');
 
 /* general css - any basic formatting for different elements throughout the html that I used */
@@ -26,12 +25,6 @@ a, a:visited {
 body {
   background-color: rgba(234, 221, 213, 80%)
 }
-
-/* home page background could be image of kitchen or food prep station but add transparency to it? */
-
-/* could use similar idea for the background image for the other pages as well - see what works best */
-
-/* remember to add class and selector style rules for each bit you want to style, refer back to lessons and add them to readme when you do */
 
 /* headings and logo  */
 
@@ -90,6 +83,8 @@ h3 {
 .small {
   line-height: 70px;
   margin-bottom: 0.2%;
+  font-size: 110%;
+  
 }
 
 #spacing {
@@ -101,21 +96,31 @@ h3 {
 }
 
 .pizza-spacing {
-  margin-bottom: 1.5%;
+  margin-bottom: 2%;
 }
 
 #ingredients-spacing{
   margin-bottom: 1.5%;
-  margin-left:5%;
+  margin-left:0;
 }
 
 .margin-border {
   margin-right: 25%;
 }
+
+.margin-around {
+  margin-top:1%;
+}
+
+hr {
+  margin-bottom: 2px;
+}
+
 /* navigational links */
 
+
 #menu {
-  font-size: 110%;
+  font-size: 130%;
   letter-spacing: 2px;
 }
 
@@ -148,7 +153,7 @@ h3 {
   border: 2px solid #24063e;
 }
 
-/* lists */
+/* list and list content */
 
 ol li {
   list-style: decimal;
@@ -156,14 +161,25 @@ ol li {
 }
 
 .checkbox {
-  /* width: 13px;
-    height: 13px;
-    padding: 0;
-    margin:0; */
   vertical-align: bottom;
   position: relative;
   top: -3px;
   overflow: hidden;
+  width:20px;
+  height:20px;
+  margin-top: 2%;
+  margin-bottom: 0.5%;
+}
+
+.checkbox-spacing {
+  vertical-align: bottom;
+  position: relative;
+  top: -3px;
+  overflow: hidden;
+  width:20px;
+  height:20px;
+  /* margin-top: 2%; */
+  margin-bottom: 0.15%;
 }
 
 .main-list {
@@ -186,8 +202,9 @@ ul {
 
 #pizza-dough-list-steps {
   margin-top: 1%;
-  margin-left:40%;
+  margin-left:35%;
   text-indent: 5px;
+  font-size: x-large;
 }
 
 .pizza-list-steps {
@@ -197,27 +214,37 @@ ul {
 
 .pizza-list {
   margin-top: 1%;
-  margin-left:42%
+  margin-left:40%;
+  font-size: x-large;
 }
 
 #recipe-link {
   margin-top: 2%;
 }
 
+.prep-time {
+  margin-top: 1%;
+}
+
+#rest-time {
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
 /* images */
 
-#pizza-dough {
+#pizza-dough-ingredients {
   width: 250px;
   height: 250px;
   border-radius: 40%;
-  margin: -1% 0 1% 5.5%;
+  margin: -0.5% 0 1% 2%;
 }
 
 #pizza-sauce {
   width: 250px;
   height: 250px;
   border-radius: 40%;
-  margin: -1% 0 1% 0.5%;
+  margin: -1% 0 0 0.5%;
 }
 
 #toppings {

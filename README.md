@@ -15,9 +15,9 @@ also include a features left to implement of any features youd like to add in th
 - used checkbox feature for the unordered lists as this seemed more interactive for a user rather than buller points, it makes it easier knowing what you need and still need to get/do
 - used an class for the checkbox style as i didnt want all the inputs to follow that rule
 - sections for each of the different recipe sections to split the page up more for the design
-- images and videos use for the site are all mine, same as the recpie as its something i have been making myself for years
+- images and videos use for the site are all mine, same as the recipe as its something i have been making myself for years
 - features to add - search bar, types of cusine when they select there will be differnt types in tha tcategory, side bar to select, clickable images, log in, book marking, more desighn to fill in the lank gaps
-- took a while to figure out how i wanted layout for the pizza recpie page, tried different things, then decided to leave and come back to it later, decided to add another page to seperate the layout
+- took a while to figure out how i wanted layout for the pizza recipe page, tried different things, then decided to leave and come back to it later, decided to add another page to seperate the layout
 
 
 testing - go over the projects features and ensure they all work as intended, mention how they work on vaious displays, also mention any bugs, whether fixed or not, and how they were fixed, also include the results from the validator testing and teh lighthouse tool results from dev tools, include any unfixed bugs and why they were unfixed e.g. time contraints being a valid reason, not knowing is not valid reason, any short comings in the framework for example and why this wasnt achieved - add screenshots for the testing parts 
@@ -29,7 +29,7 @@ credits - reference any sources you use, section them into the areas e.g. media 
 
 - used font awsesome (https://fontawesome.com/)
 - used google fonts (https://fonts.google.com/)
-- recpie images used are all my own, i just used this image converter (https://image.online-convert.com/convert/jpeg-to-jpg) to convert images to jpg and this site to convert videos (https://www.movavi.com/support/how-to/how-to-convert-video-to-mp4.html) to mp4 
+- recipe images used are all my own, i just used this image converter (https://image.online-convert.com/convert/jpeg-to-jpg) to convert images to jpg and this site to convert videos (https://www.movavi.com/support/how-to/how-to-convert-video-to-mp4.html) to mp4 
 - used hex colour picker https://imagecolorpicker.com/color-code/2596be
 - to check how to use checkbox feature for list items https://stackoverflow.com/questions/50649275/use-checkbox-for-list-style-type-in-unordered-list-in-html
 - used this to help style the checkbox to align in the middle of the text but edited the code a bit so that it worked with my font https://stackoverflow.com/questions/306252/how-to-align-checkboxes-and-their-labels-consistently-cross-browsers
