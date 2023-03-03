@@ -16,7 +16,7 @@ also include a features left to implement of any features youd like to add in th
 - used an class for the checkbox style as i didnt want all the inputs to follow that rule
 - sections for each of the different recipe sections to split the page up more for the design
 - images and videos use for the site are all mine, same as the recpie as its something i have been making myself for years
-- features to add - search bar, types of cusine when they select there will be differnt types in tha tcategory, side bar to select, clickable images, log in, book marking
+- features to add - search bar, types of cusine when they select there will be differnt types in tha tcategory, side bar to select, clickable images, log in, book marking, more desighn to fill in the lank gaps
 - took a while to figure out how i wanted layout for the pizza recpie page, tried different things, then decided to leave and come back to it later, decided to add another page to seperate the layout
 
 

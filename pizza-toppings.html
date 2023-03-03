@@ -10,9 +10,10 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title >My Cookbook</title>
+    <title>My Cookbook</title>
 </head>
- <!-- remember to add accessibility for different viewportsm this can be done using dev tools and checking the love running project and workign of thise until comfortable with them -->
+<!-- remember to add accessibility for different viewportsm this can be done using dev tools and checking the love running project and workign of thise until comfortable with them -->
+
 <body>
     <header>
         <a href="index.html">
@@ -28,20 +29,25 @@
             </ul>
         </nav>
     </header>
-    
-    <section>
-        <div>
-    <h2>Decorating and Baking your Pizza</h2>
-    <p>In this section you will put toppinghs on your pizza and bake it</p>
-    <img src="/assets/images/cooked-pizza.jpg" alt="Cooked pizza" class="images">
+
+    <section class="intro">
+        <div class="about">
+            <h2 class="margin-space">Decorating and Baking your Pizza</h2>
+            <p class="small">In this section you will put toppings on your pizza and bake it, following from making the
+                <a href="pizza-dough.html">pizza dough</a> and the <a href="pizza-sauce.html">pizza sauce</a> Happy
+                cooking! &#127869
+            </p>
+            <img src="/assets/images/cooked-pizza.jpg" alt="Cooked pizza" class="images">
             <img src="/assets/images/large-pizza.jpg" alt="Large pizza" class="images">
+            <p class="small"> <em>You can tick off each step once you have completed it</em> <i
+                    class="fa-solid fa-check"></i></p>
         </div>
     </section>
 
     <section>
         <div>
-            <div>
-                <h3>Equipment for Pizza Toppings</h3>
+            <div class="ingredients">
+                <h3 class="h3-spacing">Equipment for Pizza Toppings</h3>
                 <ul class="main-list">
                     <li>
                         <input type="checkbox" class="checkbox"> Rolling pin
@@ -58,11 +64,11 @@
                     </li>
                 </ul>
             </div>
-            <div>
-                <h3>Ingredients for Pizza Toppings</h3>
+            <div class="ingredients">
+                <h3 class="h3-spacing">Ingredients for Pizza Toppings</h3>
                 <ul class="main-list">
                     <img src="/assets/images/pizza-toppings.jpg" alt="Pizza toppings selection of choice and cheese"
-                        class="images">
+                        id="toppings">
                     <li>
                         <input type="checkbox" class="checkbox"> Pizza sauce - either store bought around 300g, or the
                         <a href="pizza-sauce.html">pizza sauce</a> you made earlier, <strong>make sure it has cooled
@@ -70,10 +76,9 @@
                             before use</strong>
                     </li>
                     <li>
-                        <input type="checkbox" class="checkbox"> 500g of grated cheese of choice - I however used around
-                        700g of mixed cheese as I was making several smaller pizzas, but 500g is enough for a large one,
-                        but
-                        it is up to you how much cheese to use
+                        <input type="checkbox" class="checkbox"> 500g of grated cheese of choice - I used around
+                        700g of mixed cheese as I was making several smaller pizzas, but you can choose how much cheese
+                        to use
                     </li>
                     <li>
                         <input type="checkbox" class="checkbox"> Pizza toppings of choice - I used various vegetarian
@@ -81,10 +86,11 @@
                     </li>
                 </ul>
             </div>
-            <div>
-                <h3>Steps for Pizza Toppings</h3>
+            <div class="ingredients">
+                <h3 class="h3-spacing">Steps for Pizza Toppings</h3>
                 <p><strong>Prep Time:</strong> 20 minutes</p>
                 <p><strong>Cooking Time:</strong> 12-18 minutes (varies depending on type of cooker)</p>
+                <br>
                 <ol class="main-list">
                     <li>
                         Preheat oven to 180°C (fan oven) / Gas mark 4 <input type="checkbox" class="checkbox">
@@ -92,7 +98,8 @@
                     <li>
                         Once the pizza dough has rested for between 1 hour to 1.5 hours, bring it back to your work
                         surface,
-                        it will have doubled in size while resting in a warm place. Dust your work surface with some
+                        it will have doubled in size while resting in a warm place. <br>
+                        Dust your work surface with some
                         flour,
                         and place the dough down on it <input type="checkbox" class="checkbox">
                     </li>
@@ -100,15 +107,10 @@
                     <img src="/assets/images/dough-ready.jpg" alt="Dough on work surface ready to be rolled out"
                         class="images">
                     <li>
-                        At this point, you can deicde how to roll out your pizza, whether you want to have smaller ones,
-                        like I did or have a larger one (like one of the images at the top of the page). Use the knife
-                        to
-                        section into smaller bits of dough, then roll into a ball-like shape and start to roll it out,
-                        remeber to roll in both directions and then also flipping it over to the other side to get a
-                        sort of
-                        circular shape (although mine didnt't really end up like this, I was still happy with what I got
-                        as
-                        it's still going to be pizza). You can make different shapes, that is your preference, once
+                        At this point, you can decide how to roll out your pizza. Use the knife to
+                        section the dough into smaller bits, then roll into a ball-like shape and start to roll it out. <br>
+                        Remember to roll in both directions and then flip it over to the other side to get your shape. <br>
+                        You can make different shapes, that is your preference, once
                         rolled
                         out, lightly sprinle some flour onto your baking paper and place the rolled out dough onto it
                         <input type="checkbox" class="checkbox">
@@ -124,13 +126,12 @@
                     <img src="/assets/images/pizza-shape-2.jpg"
                         alt="Multiple rolled out pizza shapes on the baking paper" class="images">
                     <br>
-                    <p> Now you are ready to start spreading your pizza sauce onto the base and placing your toppings on
+                    <p> <strong>Now you are ready to start spreading your pizza sauce onto the base and placing your toppings on</strong>
                     </p>
                     <br>
                     <li>
-                        Put some pizza sauce onto the base and spread it out across the whole base to your liking, I
-                        enjoy
-                        quiet a bit of sauce on mine, I also added some sundried tomato pesto to my base with the pizza
+                        Put some pizza sauce onto the base and spread it out across the whole base to your liking. <br>
+                        I also added some sundried tomato pesto to my base with the pizza
                         sauce as this is a personal preference <input type="checkbox" class="checkbox">
                     </li>
                     <img src="/assets/images/pizza-prep.jpg" alt="Pizza bases with the pizza sauce on it"
@@ -138,7 +139,8 @@
                     <li>
                         After putting the sauce onto the pizza base, you're ready to start spreading your cheese and
                         adding
-                        your toppings, do this to your liking. After putting my toppings on the pizza, I put a bit of
+                        your toppings, do this to your liking. <br>
+                        After putting my toppings on the pizza, I put a bit of
                         cheese
                         on top of the pizza and added some of my left over home made pizza sauce on top of the pizza
                         <input type="checkbox" class="checkbox">
@@ -151,7 +153,8 @@
                             class="checkbox">
                     </li>
                 </ol>
-                <br>
+            </div>
+            <div class="ingredients">
                 <ul class="main-list">
                     <h3>Pizza Cooking Times</h3>
                     <p>Now you are ready to cook your pizza, <strong>please note that cooking times may vary - the
@@ -191,4 +194,5 @@
 
     <script src="https://kit.fontawesome.com/d06941e158.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
