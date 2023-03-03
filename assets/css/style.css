@@ -213,8 +213,14 @@ ul {
 }
 
 .pizza-list {
+  margin-top: -6%;
+  margin-left:35%;
+  font-size: x-large;
+}
+
+.pizza-dough-instructions {
   margin-top: 1%;
-  margin-left:40%;
+  margin-left: 35%;
   font-size: x-large;
 }
 
@@ -266,6 +272,7 @@ ul {
   height: 300px;
   border-radius: 40%;
   margin-right: 1%;
+  margin-top: 1%;
 }
 
 .column {
@@ -306,16 +313,16 @@ ul {
   width: 250px;
   height: 250px;
   border-radius: 40%;
-  margin: 1% -16% 1% 17%
+  margin: 1% -12% 1% 16%;
 }
 
 .pizza-dough-single {
   width: 250px;
   height: 250px;
   border-radius: 40%;
-  margin-left: 15%;
-  margin-top: 1%;
+  margin-top: 1% ;
   margin-bottom: 1%;
+  margin-left: 2%;
 }
 
 .pizza-videos {
@@ -330,7 +337,7 @@ footer {
   clear: both;
   position: relative;
   height: 200px;
-  margin-right: 3%;
+  margin-left: 3%;
 }
 
 .socials {
