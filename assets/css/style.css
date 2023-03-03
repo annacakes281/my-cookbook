@@ -3,19 +3,26 @@
 /* general css - any basic formatting for different elements throughout the html that I used */
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: oswald, arial, helvetica, sans-serif;
-    font-weight: 600;
-    color: #5c052e;
+  font-family: oswald, arial, helvetica, sans-serif;
+  font-weight: 600;
+  color: #5c052e;
+  word-spacing: 1px;
 }
 
-a { 
-    text-decoration: none;
+a {
+  text-decoration: none;
+  color: #d376ce;
+}
+
+a:visited {
+
+  color: #b615ad;
 }
 
 /* background */
@@ -33,23 +40,24 @@ body {
 /* headings and logo  */
 
 #logo {
-    float: center;
-    font-size: 300%;
-    text-align: center;
-    margin-right: 4%;
-    
+  float: center;
+  font-size: 300%;
+  text-align: center;
+  margin-right: 4%;
+
 }
 
-h1, h2 {
-    font-family: quicksand, arial, helvetica, sans-serif;
-    letter-spacing: 4px;
-    color: #6e0826;
+h1,
+h2 {
+  font-family: quicksand, arial, helvetica, sans-serif;
+  letter-spacing: 4px;
+  color: #6e0826;
 }
 
 h3 {
-    font-family: quicksand, arial, helvetica, sans-serif;
-    letter-spacing: 1px;
-    color: #6e0826;
+  font-family: quicksand, arial, helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: #6e0826;
 }
 
 /* body content for general css */
@@ -70,9 +78,23 @@ h3 {
   margin-left: 1%;
   clear: both;
   position: relative;
-  bottom:97px;
+  bottom: 97px;
   right: 1px;
 }
+
+.small {
+  line-height: 70px;
+  margin-bottom: 0.2%;
+}
+
+#spacing {
+  margin-top: 15%;
+}
+
+.margin-space {
+  margin-top: 3%;
+}
+
 
 /* navigational links */
 
@@ -81,7 +103,8 @@ h3 {
   letter-spacing: 2px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
   line-height: 50px;
 }
 
@@ -92,7 +115,7 @@ h3 {
 }
 
 .menu {
-  float:none;
+  float: none;
   margin-top: 0.4%;
   margin-left: 42.5%;
 }
@@ -112,64 +135,74 @@ h3 {
 /* lists */
 
 ol li {
-    list-style: decimal;
-    list-style-position: inside;
+  list-style: decimal;
+  list-style-position: inside;
 }
 
-  .checkbox {
-    /* width: 13px;
+.checkbox {
+  /* width: 13px;
     height: 13px;
     padding: 0;
     margin:0; */
-    vertical-align: bottom;
-    position: relative;
-    top: -3px;
-    overflow: hidden;
-  }
+  vertical-align: bottom;
+  position: relative;
+  top: -3px;
+  overflow: hidden;
+}
 
-  .main-list {
-    font-family:Baloo-Tammudu-2;
-    font-weight: 300;
-  }
+.main-list {
+  font-family: Baloo-Tammudu-2;
+  font-weight: 300;
+}
 
-  /* images */
+ul {
+  list-style-type: none;
+}
 
-  #pizza-dough-ingredients {
-    width: 200px;
-    height: 200px;
-    border-radius: 40%;
-  }
+.block {
+  display: inline-table;
+}
 
-  .images {
-    width: 200px;
-    height: 200px;
-    border-radius: 40%;
-  }
+.instructions {
+  padding-left: 37.5%;
+  text-indent: 20px;
+}
 
-  .column {
-    float: left;
-    width: 10%;
-    padding: 1px; }
+/* images */
 
-    .row {
-      clear: both;
-      display: inline;
-    }
+#pizza-dough-ingredients {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+}
 
-    .center {
-      display: block;
-      margin-top: 3%;
-      margin-left: 31%;
-      width: 70%;
-    }
+.images {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+}
 
-    .spacing
-    {
-      margin-top: 15%;
-    }
- /* footer  */
+.column {
+  float: left;
+  width: 10%;
+  padding: 1px;
+}
 
- footer {
+.row {
+  clear: both;
+  display: inline;
+}
+
+.center {
+  display: block;
+  margin-top: 3%;
+  margin-left: 31%;
+  width: 70%;
+}
+
+/* footer  */
+
+footer {
   clear: both;
   position: relative;
   height: 200px;
@@ -177,11 +210,11 @@ ol li {
   /* margin-top: 300px; */
 }
 
- .socials {
+.socials {
   text-align: center;
 }
 
-.socials > li {
+.socials>li {
   display: inline;
 }
 
