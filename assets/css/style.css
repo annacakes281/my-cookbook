@@ -55,7 +55,7 @@ h3 {
 }
 
 .h3-spacing {
-  margin-bottom: 0.25%;
+  margin-bottom: 1%;
 }
 
 /* body content for general css */
@@ -84,7 +84,12 @@ h3 {
   line-height: 70px;
   margin-bottom: 0.2%;
   font-size: 110%;
-  
+}
+
+#small-gap {
+  line-height: 70px;
+  margin-bottom: -2%;
+  font-size: 110%;
 }
 
 #spacing {
@@ -209,7 +214,8 @@ ul {
 
 .pizza-list-steps {
   margin-top: 1%;
-  margin-left:44%
+  margin-left:44%;
+  font-size: x-large;
 }
 
 .pizza-list {
@@ -228,13 +234,34 @@ ul {
   margin-top: 2%;
 }
 
-.prep-time {
+.prep-time, .cooking-time {
   margin-top: 1%;
 }
 
-#rest-time {
+#rest-time, #cooldown-time {
   margin-top: 1%;
   margin-bottom: 2%;
+}
+
+#pizza-sauce-equipment {
+  margin-top: 1.5%;
+  margin-left:35%;
+  font-size: x-large;
+}
+
+#pizza-sauce-ingredients {
+  /* margin-top: 1%;
+  margin-left:35%;
+  font-size: x-large; */
+  margin-top: -6%;
+  margin-left: 52%;
+  font-size: x-large;
+}
+
+#pizza-sauce-steps {
+  margin-top: -2.5%;
+  margin-left:35%;
+  font-size: x-large;
 }
 
 /* images */

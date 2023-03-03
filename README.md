@@ -18,6 +18,7 @@ also include a features left to implement of any features youd like to add in th
 - images and videos use for the site are all mine, same as the recipe as its something i have been making myself for years
 - features to add - search bar, types of cusine when they select there will be differnt types in tha tcategory, side bar to select, clickable images, log in, book marking, more desighn to fill in the lank gaps
 - took a while to figure out how i wanted layout for the pizza recipe page, tried different things, then decided to leave and come back to it later, decided to add another page to seperate the layout
+- added numbers to each of the headings as i asked mum for opinion and she said she likes things simple and easy to follow
 
 
 testing - go over the projects features and ensure they all work as intended, mention how they work on vaious displays, also mention any bugs, whether fixed or not, and how they were fixed, also include the results from the validator testing and teh lighthouse tool results from dev tools, include any unfixed bugs and why they were unfixed e.g. time contraints being a valid reason, not knowing is not valid reason, any short comings in the framework for example and why this wasnt achieved - add screenshots for the testing parts 
