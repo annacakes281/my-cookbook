@@ -17,6 +17,7 @@ also include a features left to implement of any features youd like to add in th
 - sections for each of the different recipe sections to split the page up more for the design
 - images and videos use for the site are all mine, same as the recpie as its something i have been making myself for years
 - features to add - search bar, types of cusine when they select there will be differnt types in tha tcategory, side bar to select, clickable images, log in, book marking
+- took a while to figure out how i wanted layout for the pizza recpie page, tried different things, then decided to leave and come back to it later, decided to add another page to seperate the layout
 
 
 testing - go over the projects features and ensure they all work as intended, mention how they work on vaious displays, also mention any bugs, whether fixed or not, and how they were fixed, also include the results from the validator testing and teh lighthouse tool results from dev tools, include any unfixed bugs and why they were unfixed e.g. time contraints being a valid reason, not knowing is not valid reason, any short comings in the framework for example and why this wasnt achieved - add screenshots for the testing parts 
