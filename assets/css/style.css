@@ -1264,4 +1264,26 @@ footer {
   font-size: x-large;
 }
 
+/* pizza toppings */
+
+#toppings-equipment {
+  margin-left: 19%;
+}
+
+#toppings-ingredients {
+  margin-left: 40%;
+  margin-top: -26%;
+  padding: 200px;
+}
+
+#toppings-steps {
+  margin-left: 19%;
+  margin-top: -15%;
+}
+
+#pizza-cooking {
+  margin-left: 19%;
+  margin-right: 16%;
+}
+
 }
