@@ -617,6 +617,54 @@ footer {
   margin: 3% 0 1% 15%;
 }
 
+/* pizza toppings */
+
+#toppings-equipment {
+  margin-left: 11%;
+}
+#toppings-ingredients {
+  margin-left: 11%;
+  margin-top: -12%;
+  padding: 25px;
+}
+
+#toppings {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  margin: 0.5% 0 1% 13%;
+}
+
+#toppings-steps {
+  margin-left: 18%;
+  margin-top: -5%;
+  padding: unset;
+  margin-right: 10%;
+}
+
+.pizza-topping-images, .pizza-topping-single  {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  margin: 1% -3% 1% 15%;
+}
+
+#pizza-cooking {
+  margin-top: -5%;
+  margin-left: 9%;
+}
+
+/* general body text */
+
+.prep-time, .cooking-time {
+  margin-top: 5%;
+}
+
+#cooldown-time {
+  margin-top: 5%;
+  margin-bottom: -6%;
+}
+
 }
 
 /* extra media changes for screens between 320px-425px - equalivant to smaller phone screens, that didn't fit perfectly with the same style as above so some small changes needed to be made specifically for these */
@@ -660,6 +708,20 @@ footer {
   height: 200px;
   border-radius: 40%;
   margin: 3% 0 1% 9%;
+}
+
+#toppings {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  margin: 0.5% 0 1% 6%;
+}
+
+.pizza-topping-images, .pizza-topping-single  {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  margin: 1% -3% 1% 10%;
 }
 
 }
@@ -713,6 +775,20 @@ footer {
   height: 200px;
   border-radius: 40%;
   margin: 3% 0 1% 3%;
+}
+
+#toppings {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  margin: 0.5% 0 1% 1%;
+}
+
+.pizza-topping-images, .pizza-topping-single  {
+  width: 200px;
+  height: 200px;
+  border-radius: 40%;
+  margin: 1% -3% 1% 4%;
 }
 
 }
