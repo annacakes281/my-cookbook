@@ -1224,4 +1224,23 @@ footer {
   right: 1px;
 }
 
+/* pizza dough */
+
+#pizza-dough-list-steps {
+  margin-top: 1%;
+  margin-left: 21%;
+  text-indent: 5px;
+  font-size: x-large;
+}
+
+#dough-ingredients {
+  margin-left: 21%;
+}
+.pizza-dough-instructions {
+  margin-top: 1%;
+  margin-left: 21%;
+  margin-right: 18%;
+  font-size: x-large;
+}
+
 }
