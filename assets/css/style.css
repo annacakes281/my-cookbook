@@ -386,3 +386,69 @@ footer {
   text-align: center;
   color: inherit;
 }
+
+/* media queries - various screen sizes */
+
+/* for screens between 320px-425px - equalivant to smaller phone screens */
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+
+  #logo {
+    font-size: 270%;
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+  
+  #menu li {
+    float: left;
+    margin-left: -40px;
+    margin-right: 60px;
+    font-size: 90%;
+  }
+
+  .row {
+    clear: both;
+    display: inline;
+  }
+  
+  .center {
+    display: inline-block;
+    margin-top: -30px;
+    margin-bottom: -40px;
+    margin-left: 120px;
+  }
+
+  .column {
+    width: 42px;
+    height:42px;
+
+  }
+  
+}
+
+/* extra media changes for screens between 320px-425px - equalivant to smaller phone screens, that didn't fit perfectly with the same style as above so some small changes needed to be made specifically for these */
+
+@media screen and (max-width: 375px) and (min-width: 375px) {
+  #logo {
+    font-size: 276%;
+    margin-top: 8px;
+    margin-left: 10px;
+  }
+
+  .center {
+    display: inline-block;
+    margin-top: -30px;
+    margin-bottom: -40px;
+    margin-left: 80px;
+  }
+  
+}
+
+@media screen and (max-width:320px) and (min-width:320px) {
+  .center {
+    display: inline-block;
+    margin-top: -30px;
+    margin-bottom: -40px;
+    margin-left: 50px;
+  }
+}
