@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&family=Oswald&family=Quicksand:wght@600&family=Shantell+Sans:ital@1&display=swap');
 
-/* add comments for each section  */
+/* add comments for each section and organise  */
+
+/* style built for screen sizes 2475px-2700px*/
+
 /* general css - any basic formatting for different elements throughout the html that I used */
 
 * {
@@ -31,7 +34,6 @@ body {
 /* headings and logo  */
 
 #logo {
-  float: center;
   font-size: 340%;
   text-align: center;
   margin-right: 4%;
@@ -46,7 +48,7 @@ h1 {
 }
 
 h2 {
-  font-family: shantell sans, arial, helvetica, sans-serif;
+  font-family: 'shantell sans', arial, helvetica, sans-serif;
   letter-spacing: 2px;
   color: #781e49;
 }
@@ -285,6 +287,10 @@ ul {
 
 #pizza-cooking {
   margin-left: 25%;
+}
+
+.line-break {
+  line-height: 50px;
 }
 
 /* images */
@@ -667,6 +673,11 @@ footer {
     margin-top: 5%;
     margin-bottom: -6%;
   }
+
+  .line-break {
+    line-height: 50px;
+    margin-right: 2%;
+}
 
 }
 
