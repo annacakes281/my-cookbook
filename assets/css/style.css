@@ -205,6 +205,10 @@ ul {
   text-indent: 20px;
 }
 
+#dough-ingredients {
+  margin-left: 35%;
+}
+
 #pizza-dough-list-steps {
   margin-top: 1%;
   margin-left: 35%;
@@ -219,8 +223,7 @@ ul {
 }
 
 .pizza-list {
-  margin-top: -6%;
-  margin-left: 35%;
+  margin-top: 1%;
   font-size: x-large;
 }
 
@@ -263,6 +266,25 @@ ul {
   font-size: x-large;
 }
 
+#toppings-equipment {
+  margin-left: 25%;
+}
+
+#toppings-ingredients {
+  margin-left: 40%;
+  margin-top: -17.1%;
+  padding: 250px;
+}
+
+#toppings-steps {
+  margin-left: 25%;
+  margin-top: -10%;
+}
+
+#pizza-cooking {
+  margin-left: 25%;
+}
+
 /* images */
 
 #pizza-dough-ingredients {
@@ -283,7 +305,7 @@ ul {
   width: 250px;
   height: 250px;
   border-radius: 40%;
-  margin: 0.5% 0 1% 2%;
+  margin: 0.5% 0 1% 1%;
 }
 
 .sauce {
@@ -487,6 +509,10 @@ footer {
   .pizza-spacing {
     margin-bottom: 4%;
     margin-top: 4%;
+  }
+
+  #dough-ingredients {
+    margin-left: 5%;
   }
 
   #pizza-dough-list-steps {
