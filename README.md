@@ -20,6 +20,8 @@ also include a features left to implement of any features youd like to add in th
 - took a while to figure out how i wanted layout for the pizza recipe page, tried different things, then decided to leave and come back to it later, decided to add another page to seperate the layout
 - added numbers to each of the headings as i asked mum for opinion and she said she likes things simple and easy to follow
 - used the screen size tool for the media query on dev tools, eventually i would like to change responiveness depending on the model of the phone not just the screen size
+- screenshots od the different validators and light house, then screenshots after changing file sizes deu to poor performance load
+- reason errors on validators was because of immages and videos, they are meant to be included and by the time i checkedthe validator there wasnt enough time to do a work around to exclude these errors 
 
 
 testing - go over the projects features and ensure they all work as intended, mention how they work on vaious displays, also mention any bugs, whether fixed or not, and how they were fixed, also include the results from the validator testing and teh lighthouse tool results from dev tools, include any unfixed bugs and why they were unfixed e.g. time contraints being a valid reason, not knowing is not valid reason, any short comings in the framework for example and why this wasnt achieved - add screenshots for the testing parts 
@@ -42,5 +44,5 @@ credits - reference any sources you use, section them into the areas e.g. media 
 i liked the idea of the nav bar at the top of the page and underlined so i used the idea from love running but changed the code a bit to match how i wanted it to look, i also liked the active feature but i changed it to suit how i wanted it to look
 - https://stackoverflow.com/questions/7291873/disable-color-change-of-anchor-tag-when-visited change anchor link colour when visited 
 - adding a text indent, wasnt sure how to create space between text for the table https://www.w3schools.com/css/css_text_spacing.asp, also added word spacing 
-
+- https://www.img2go.com/compress-image to compress image file sizes
 -->
