@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&family=Oswald&family=Quicksand:wght@600&family=Shantell+Sans:ital@1&display=swap');
 
+/* add comments for each section  */
 /* general css - any basic formatting for different elements throughout the html that I used */
 
 * {
@@ -418,7 +419,7 @@ footer {
 
 /* media queries - various screen sizes */
 
-/* for screens between 320px-450px - equalivant to smaller phone screens */
+/* for screens between 320px-450px - equalivent to smaller phone screens */
 
 @media screen and (max-width: 450px) and (min-width: 320px) {
 
@@ -670,7 +671,7 @@ footer {
 
 }
 
-/* extra media changes for screens between 320px-425px - equalivant to smaller phone screens, that didn't fit perfectly with the same style as above so some small changes needed to be made specifically for these */
+/* extra media queries for screens between 320px-425px - equalivent to smaller phone screens, that didn't fit perfectly with the same style as above so some small changes needed to be made specifically for these */
 
 @media screen and (max-width: 375px) and (min-width: 375px) {
 
@@ -799,7 +800,7 @@ footer {
 
 }
 
-/* for screens between 768px-1024px - equalivant to tablet and small laptop */
+/* for screens between 768px-1024px - equalivent to tablet and small laptop */
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
 
@@ -880,9 +881,78 @@ footer {
   right: 10px;
 }
 
+/* pizza dough */
+
+.margin-space {
+  margin-top: -7%;
+  margin-bottom: 3%;
 }
 
-/* extra media changes for screens between 768px-1024px - equalivant to tablet and small laptop, that didn't fit perfectly with the same style as above so some small changes needed to be made specifically for these */
+.images {
+  width: 225px;
+  height: 225px;
+  border-radius: 40%;
+  margin-right: -2%;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.pizza-spacing {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+#pizza-dough-list-steps {
+  margin-top: 8%;
+  margin-left: 17%;
+  text-indent: 5px;
+  font-size: x-large;
+}
+
+#dough-ingredients {
+  margin-left: 17%;
+  margin-right: 5%;
+}
+
+.pizza-dough-instructions {
+  margin-top: 2%;
+  margin-left: 17%;
+  font-size: x-large;
+  margin-right: 7%;
+}
+
+#pizza-dough-ingredients {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: -0.5% 0 1% 18%;
+}
+
+.pizza-dough-single {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 18%;
+}
+
+.pizza-videos {
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.pizza-dough-images {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -5% 1% 5%;
+}
+
+}
+
+/* extra media queries for screens between 768px-1024px - equalivent to tablet and small laptop, that didn't fit perfectly with the same style as above so some small changes needed to be made specifically for these */
 
 @media screen and (max-width: 1024px) and (min-width: 1024px) {
 
@@ -916,6 +986,46 @@ footer {
   position: relative;
   bottom: -55px;
   right: 120px;
+}
+
+.margin-space {
+  margin-top: -7%;
+  margin-bottom: 3%;
+  font-size: 158%;
+}
+
+.pizza-dough-instructions {
+  margin-top: 2%;
+  margin-left: 17%;
+  font-size: x-large;
+  margin-right: 5%;
+}
+
+.pizza-dough-single {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -12% 1% 25%;
+}
+
+#pizza-dough-ingredients {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -12% 1% 25%;
+}
+
+.pizza-videos {
+  margin-left: 17%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.pizza-dough-images {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -12% 1% 16%;
 }
 
 }
