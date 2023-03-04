@@ -925,14 +925,14 @@ footer {
   width: 250px;
   height: 250px;
   border-radius: 40%;
-  margin: -0.5% 0 1% 18%;
+  margin: 1% 0 1% 18%;
 }
 
 .pizza-dough-single {
   width: 250px;
   height: 250px;
   border-radius: 40%;
-  margin-top: 1%;
+  margin-top: 2%;
   margin-bottom: 1%;
   margin-left: 18%;
 }
@@ -948,6 +948,59 @@ footer {
   height: 250px;
   border-radius: 40%;
   margin: 1% -5% 1% 5%;
+}
+
+/* pizza sauce */
+
+.margin-around {
+  margin-top: 1%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+#small-gap {
+  line-height: 70px;
+  margin-bottom: 2%;
+  font-size: 110%;
+  margin-top: -5%;
+}
+
+#pizza-sauce-equipment {
+  margin-top: 4%;
+  margin-left: 19%;
+  font-size: x-large;
+}
+
+#pizza-sauce-ingredients {
+  margin-top: 2%;
+  margin-left: 19%;
+  font-size: x-large;
+}
+
+#pizza-sauce-steps {
+  margin-top: 2%;
+  margin-left: 19%;
+  margin-right: 9%;
+  font-size: x-large;
+}
+
+#cooldown-time {
+  margin-top: 1%;
+  margin-bottom: -3%;
+}
+
+#pizza-sauce {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% 0 1% 18%;
+}
+
+.sauce {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 2% 0 1% 18%;
 }
 
 }
@@ -1026,6 +1079,20 @@ footer {
   height: 250px;
   border-radius: 40%;
   margin: 1% -12% 1% 16%;
+}
+
+#pizza-sauce {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -12% 1% 20%;
+}
+
+.sauce {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -12% 1% 20%;
 }
 
 }
