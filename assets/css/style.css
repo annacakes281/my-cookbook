@@ -422,7 +422,7 @@ footer {
   color: inherit;
 }
 
-/* media queries - various screen sizes */
+/* media queries - various screen sizes using dev tool sizes */
 
 /* for screens between 320px-450px - equalivent to smaller phone screens */
 
@@ -1293,6 +1293,121 @@ footer {
 #pizza-cooking {
   margin-left: 19%;
   margin-right: 16%;
+}
+
+}
+
+/* media queries for various sizes using the "Am I Responsive" website viewport scales */
+
+/* for desktop sceens 1600px by 922px */
+
+@media screen and (max-width: 1600px) and (min-width: 922px) {
+
+  /* logo, nav and footer */
+
+  #logo {
+    font-size: 340%;
+    text-align: center;
+    margin-right: -6%;
+    margin-top: 15px;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-left: 8%;
+}
+
+/* home page */
+
+.center {
+  display: block;
+  margin-top: 4%;
+  margin-left: 35%;
+  width: 70%;
+}
+.about {
+  margin: -4% -15% 0 -10%;
+  text-align: center;
+  font-size: x-large;
+}
+
+.homepage-images {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-left: -3%;
+}
+
+.inline {
+  display: inline-block;
+  margin-left: 1%;
+  clear: both;
+  position: relative;
+  bottom: 97px;
+  right: 60px;
+}
+
+/* pizza dough */
+
+#pizza-dough-list-steps {
+  margin-top: 1%;
+  margin-left: 30%;
+  text-indent: 5px;
+  font-size: x-large;
+}
+
+#dough-ingredients {
+  margin-left: 31%;
+}
+
+.pizza-dough-instructions {
+  margin-top: 1%;
+  margin-left: 31%;
+  font-size: x-large;
+}
+
+/* pizza sauce */
+
+#pizza-sauce-equipment {
+  margin-top: 1.5%;
+  margin-left: 25%;
+  font-size: x-large;
+}
+
+#pizza-sauce-ingredients {
+  margin-top: -9.1%;
+  margin-left: 51%;
+  font-size: x-large;
+}
+
+#pizza-sauce-steps {
+  margin-top: -7%;
+  margin-left: 25%;
+  font-size: x-large;
+  margin-right: 14%;
+}
+
+/* pizza toppings */
+
+.small {
+  line-height: 70px;
+  margin-bottom: -1%;
+  font-size: 110%;
+}
+
+#toppings-ingredients {
+  margin-left: 40%;
+  margin-top: -26.4%;
+  padding: 250px;
+}
+
+#toppings-steps {
+  margin-left: 25%;
+  margin-top: -17%;
 }
 
 }
