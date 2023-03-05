@@ -6,7 +6,7 @@ My Cookbook is an online cookbook that is aimed at the foodie community and thos
 
 The site is targeted at anyone who enjoys cooking, with easy to follow recipes, aimed for various cooking and baking skill levels. The website hopes to accomplish a full online cookbook with various different types of cusines that people may like to eat and try.
 
-<img src="assets/readme-images/homepage.png" alt="Homepage" title="Homepage">
+<img src="assets/readme-images/homepage.png" alt="Homepage">
 
 ## **Table of Contents**
 <details open>
@@ -17,7 +17,7 @@ The site is targeted at anyone who enjoys cooking, with easy to follow recipes, 
 <li> Navigation Bar </li>
 <li> Homepage Image Bar </li>
 <li> About My Cookbook</li>
-<li> Recipe Image and Link </li>
+<li> Recipe Images and Links </li>
 <li> The Footer </li>
 <li> Introduction to Page </li>
 <li> Instructions/Steps </li>
@@ -52,52 +52,76 @@ The site is targeted at anyone who enjoys cooking, with easy to follow recipes, 
 
 ## **Features**
 
+<img src="assets/readme-images/am-i-responsive-updated.png" alt="Responsive design example">
+
 In this section I will discuss the various features that I implemented in the design for the My Cookbook website, including future features that I would like ti implement and design for the website.
+
 
 ### ***Existing Features***
 
-<!-- 
+<br>
 
-you can use bullet points to descibe each section!!
+#### Navigation Bar
+* The navigation bar is featured on all four pages of the website, it includes links to the Home page, Pizza Recipe page, Pizza Sauce page and Pizza Toppings page - this is identical on each page to allow for easy navigation. The logo is also a link which will take the user directly back to the home page.
+* The navigation bar allows users to easily go between each of the pages without having to press the back button to switch between pages.
+* The page that is currently active also has a sqaure border around it so that the user can see which page they are on.
 
-features - describe the features/different parts of the project, what value each of the features provide refering back to the target audience, and how the website fits to the target audience with the features
-e.g. nav bar, homepage image, foodie ethos, footer, other pages, etc - include screenshots of the features/sections
-also include a features left to implement of any features youd like to add in the future 
-- added custom font, but also added 3 differnt types of fallback fonts incase it doesnt load on certain screens or browswers (add screenshot of the code)
-- added footer with links to facebook and instagram, also added a copyright logo as i have noticed this tends to be on majority of websites 
-- used checkbox feature for the unordered lists as this seemed more interactive for a user rather than buller points, it makes it easier knowing what you need and still need to get/do
-- used an class for the checkbox style as i didnt want all the inputs to follow that rule
-- sections for each of the different recipe sections to split the page up more for the design
-- images and videos use for the site are all mine, same as the recipe as its something i have been making myself for years
-- features to add - search bar, types of cusine when they select there will be differnt types in tha tcategory, side bar to select, clickable images, log in, book marking, more desighn to fill in the lank gaps
-- took a while to figure out how i wanted layout for the pizza recipe page, tried different things, then decided to leave and come back to it later, decided to add another page to seperate the layout
-- added numbers to each of the headings as i asked mum for opinion and she said she likes things simple and easy to follow
-- used the screen size tool for the media query on dev tools, eventually i would like to change responiveness depending on the model of the phone not just the screen size
-- screenshots od the different validators and light house, then screenshots after changing file sizes deu to poor performance load
-- reason errors on validators was because of immages and videos, they are meant to be included and by the time i checkedthe validator there wasnt enough time to do a work around to exclude these errors 
+<img src="assets/readme-images/nav-bar.png" alt="Navigation bar">
 
+<br>
 
-testing - go over the projects features and ensure they all work as intended, mention how they work on vaious displays, also mention any bugs, whether fixed or not, and how they were fixed, also include the results from the validator testing and teh lighthouse tool results from dev tools, include any unfixed bugs and why they were unfixed e.g. time contraints being a valid reason, not knowing is not valid reason, any short comings in the framework for example and why this wasnt achieved - add screenshots for the testing parts 
+#### Homepage Image Bar
+* The image bar is featured on the home page for the website, and has five different photos of home-made foods, this was a feature that I thought fitted in well with the concept of a cookbook, as they are all home-made recipes that I had made myself in the past.
+* Hopefully this sort of feature will inspire others to what they can achieve and accomplish by cooking home-made meals.
 
-deployment - how the project was deployed and on what platform, can include screenshots and include a deployment link
+<img src="assets/readme-images/image-bar.png" alt="Homepage image bar displaying 5 photos">
 
-credits - reference any sources you use, section them into the areas e.g. media (images, videos), content (text, icons, fonts, instructions)
-- used meta data and boilerplate html from the love running project by the code institute that i recreated following the source code, copied some css code over from the love running project, used social media(https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+<br>
 
-- used font awsesome (https://fontawesome.com/)
-- used google fonts (https://fonts.google.com/)
-- recipe images used are all my own, i just used this image converter (https://image.online-convert.com/convert/jpeg-to-jpg) to convert images to jpg and this site to convert videos (https://www.movavi.com/support/how-to/how-to-convert-video-to-mp4.html) to mp4 
-- used hex colour picker https://imagecolorpicker.com/color-code/2596be
-- to check how to use checkbox feature for list items https://stackoverflow.com/questions/50649275/use-checkbox-for-list-style-type-in-unordered-list-in-html
-- used this to help style the checkbox to align in the middle of the text but edited the code a bit so that it worked with my font https://stackoverflow.com/questions/306252/how-to-align-checkboxes-and-their-labels-consistently-cross-browsers
-- my ordered lists werent showing with numbers so i used this to fix it https://stackoverflow.com/questions/2642067/ordered-list-ol-showing-up-un-numbered
-- to add an emoji i used https://www.w3schools.com/charsets/ref_emoji_smileys.asp
-- images side by side https://www.w3schools.com/howto/howto_css_images_side_by_side.asp i did edit the code to my liking 
-- footer was sticking to top of page so i found a fix online - https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b
-i liked the idea of the nav bar at the top of the page and underlined so i used the idea from love running but changed the code a bit to match how i wanted it to look, i also liked the active feature but i changed it to suit how i wanted it to look
-- https://stackoverflow.com/questions/7291873/disable-color-change-of-anchor-tag-when-visited change anchor link colour when visited 
-- adding a text indent, wasnt sure how to create space between text for the table https://www.w3schools.com/css/css_text_spacing.asp, also added word spacing 
-- https://www.img2go.com/compress-image to compress image file sizes
-https://www.xconvert.com/compress-mp4 mp4 compress
-https://www.davidmacd.com/test/wave-checkbox-aria.html aria label
--->
+#### About My Cookbook
+* This section was added as an introduction to the website, allowing users to understand the purpose behind it and how to use some of the basic features of the page, as well as the 'Happy Cooking &#127869;' saying, which is on all the pages, similar to a motto.
+
+<img src="assets/readme-images/homepage-intro.png" alt="About my cookbook homepage introduction">
+
+<br>
+
+#### Recipe Images and Links
+* This section on only on the homepage, and acts as a secondary link to each of the recipe pages for the website, with a corresponding image. By clicking the text, the user will also be taken to that particular recipe.
+
+<img src="assets/readme-images/homepage-link.png" alt="Text link to pages with images">
+
+<br>
+
+#### The Footer
+* The footer section is included across all four pages of the website and it links to the relevant social media pages for My Cookbook - there is currently only 2 social media links. When the icon is clicked, the page will open in a new tab, allowing for easy navigation for the user, so they don't lose the page that they are on.
+* The footer with the links to social media adds value, as it allows users to keep connected through different forms of social media.
+* I did add a copyright feature, as this was something I usually see across majority of websites, and thought it would be clever practice to include this (also all the media included on the page is all my personal images and videos).
+
+<img src="assets/readme-images/footer.png" alt="Footer icons and copyright" width="300px"
+style="margin: 0 30%">
+
+<br>
+
+#### Introduction to Page
+* Each page has an introduction to what the page is about and what it will teach them to do, as well as include text links back to the other pages which relate to the current page that they are on. I thought this feature is useful for the users to understand what they will be learning in that particular page that they are on.
+* Each of these pages also include the motto from the homeepage: 'Happy Cooking &#127869;'.
+* Each page also includes a message that lets users know that they can tick off each step once completed.
+
+<img src="assets/readme-images/pizza-dough-intro.png" alt="Pizza dough introduction" width="275" style="margin: 0 13%">
+<img src="assets/readme-images/pizza-topping-intro.png" alt="Pizza dough introduction" width="290" style="margin: 0 -12%">
+<img src="assets/readme-images/pizza-sauce-intro.png" alt="Pizza dough introduction" width="400" style="margin: 0 25%">
+
+<br>
+
+#### Instructions/Steps
+* Each page features an unordered list for the equipment and ingredients needed for each recipe, with the checkbox feature for users to tick off the step that they have done. However the page for Pizza Dough does include an extra section called 'Before We Begin" which lets users know some important steps that they should follow before making the dough. The steps for making the dough has been put into an ordered list, also containing the checkbox feature.
+* Each section has been numbered to let users know the order of the steps, this was not done in an ordered list though as this was a last minute decision to see how it would look, and it looked better set out this way, rather than in a list function.
+* Each section also includes photos for the steps, and the page for Pizza Dough also includes two playable videos for users to interact with, which users can control themselves, and is automatically muted. The videos show some stages for the dough which were harder to describe with text or photos.
+
+<img src="assets/readme-images/pizza-dough-steps.png" alt="Steps for the pizza dough" width="280" style="margin: 0 6%">
+<img src="assets/readme-images/pizza-sauce-steps.png" alt="Steps for the pizza sauce" width="400" style="margin: 0 -6%">
+<img src="assets/readme-images/pizza-topping-steps.png" alt="Steps for the pizza toppings" width="500" style="margin: 0 19%">
+
+<br>
+
+### ***Features Left to Implement***
