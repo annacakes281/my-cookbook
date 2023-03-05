@@ -24,6 +24,10 @@ The site is targeted at anyone who enjoys cooking, with easy to follow recipes, 
 </details>
 <details>
 <summary><a href="#features-left-to-implement">Features Left to Implement</a></summary>
+<li> All Pages </li>
+<li> Homepage </li>
+<li> Footer</li>
+<li> Other </li>
 </ul>
 </details>
 <details>
@@ -35,27 +39,44 @@ The site is targeted at anyone who enjoys cooking, with easy to follow recipes, 
 <li> CSS </li>
 </details>
 <details>
-<summary><a href="#lighthouse">Lighthouse</a></summary>
+<summary><a href="#unfixed-bugs">Unfixed Bugs</a></summary>
+<li> HTML </li>
 </details>
 <details>
-<summary><a href="#unfixed-bugs">Unfixed Bugs</a></summary>
+<summary><a href="#lighthouse">Lighthouse</a></summary>
+<li> Homepage Results </li>
+<li> Pizza Dough Results </li>
+<li> Pizza Sauce Results </li>
+<li> Pizza Toppings Results </li>
+</details>
+<details>
+<summary><a href="#responsiveness">Responsiveness</a></summary>
+<li> Desktop </li>
+<li> Laptop </li>
+<li> Tablet </li>
+<li> Mobile </li>
+<li> Future Implementations </li>
 </ul>
 </details>
 <details>
 <summary><a href="#deployment">Deployment</a></summary>
+<ul>
+<li> GitHub </li>
+</ul>
 </details>
 <details>
 <summary><a href="#credits">Credits</a></summary>
+<ul>
+<li> Other </li>
+</ul>
 </details>
 
 <br>
 
 ## **Features**
-
-<img src="assets/readme-images/am-i-responsive-updated.png" alt="Responsive design example">
-
 In this section I will discuss the various features that I implemented in the design for the My Cookbook website, including future features that I would like ti implement and design for the website.
 
+<img src="assets/readme-images/am-i-responsive-updated.png" alt="Responsive design example">
 
 ### ***Existing Features***
 
@@ -117,6 +138,7 @@ style="margin: 0 30%">
 * Each page features an unordered list for the equipment and ingredients needed for each recipe, with the checkbox feature for users to tick off the step that they have done. However the page for Pizza Dough does include an extra section called 'Before We Begin" which lets users know some important steps that they should follow before making the dough. The steps for making the dough has been put into an ordered list, also containing the checkbox feature.
 * Each section has been numbered to let users know the order of the steps, this was not done in an ordered list though as this was a last minute decision to see how it would look, and it looked better set out this way, rather than in a list function.
 * Each section also includes photos for the steps, and the page for Pizza Dough also includes two playable videos for users to interact with, which users can control themselves, and is automatically muted. The videos show some stages for the dough which were harder to describe with text or photos.
+* Each video and image contains an 'aria-label' for accessability for users.
 
 <img src="assets/readme-images/pizza-dough-steps.png" alt="Steps for the pizza dough" width="280" style="margin: 0 6%">
 <img src="assets/readme-images/pizza-sauce-steps.png" alt="Steps for the pizza sauce" width="400" style="margin: 0 -6%">
@@ -125,3 +147,137 @@ style="margin: 0 30%">
 <br>
 
 ### ***Features Left to Implement***
+
+There are some features that I would like to eventually change and implement for the website in the future.
+
+<br>
+
+#### All Pages
+* Changing the nav bar from 'recipe names' to 'types of cusine'.
+* Add a sidebar for users to choose from the selection of recipes to choose from, adding them into different types of categories.
+* Adding a search bar to look for recipes.
+* Add related recipe ideas on the sides of the page and best paired with.
+
+#### Homepage
+* Add a background photo rather than a background colour.
+
+#### Footer
+* Add more social media links, and one day actually create real pages for each of these social media links for users to go on.
+
+#### Other
+* A signup/login page for users to be able to save and bookmark their favourite recipies.
+* A comment section for users to give their feedback and input for other users for what they may have did differenly and any suggestions.
+
+## **Testing**
+
+In this section I will discuss the results from using the HTML and CSS validator, any unfixed bugs that occured within the code, and the Lighthouse results using the dev tools.
+
+I will also mention the responsiveness for four different types of viewports, that were taken from the [Am I Responsive](https://ui.dev/amiresponsive?) website for desktop. laptop, tablet and mobile.
+
+### ***Validator Testing***
+
+To test my code for bugs, I used the [W3C HTML Validator](https://validator.w3.org/#validate_by_input) for my HTML and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) for my CSS.
+
+#### HTML Results
+* There were no errors in the HTML code for the homepage when using the offical validator.
+
+<img src="assets/readme-images/html-validator-homepage-results.png" alt="HTML validator results">
+
+<br>
+
+* There were however **7 errors** showing for the Pizza Dough page, this was due to having images/videos, and a 'br' contained within list elements (more details about this bug can be found in the Unfixed Bugs section).
+
+<img src="assets/readme-images/html-validator-pizza-dough-errors.png" alt="HTML validator results">
+
+<br>
+
+* There were **2 errors** showing for the Pizza Sauce page, this was due to having images contained within list elements (more details about this bug can be found in the Unfixed Bugs section).
+
+<img src="assets/readme-images/html-validator-pizza-sauce-errors.png" alt="HTML validator results">
+
+<br>
+
+* There were **9 errors** showing for the Pizza Toppings page, this was due to having images contained within list elements (more details about this bug can be found in the Unfixed Bugs section).
+
+<img src="assets/readme-images/html-validator-pizza-toppings-errors.png" alt="HTML validator results">
+
+<br>
+
+#### CSS Results
+* There were no errors in the CSS code when using the offical validator.
+
+<img src="assets/readme-images/css-validator-results.png" alt="CSS validator results">
+
+<br>
+
+### ***Unfixed Bugs***
+#### HTML
+* There were **18 errors** in total that were found on the HTML validator due to the images being part of the list element. These were not fixed as by the time I had run the validator and realised that these errors had appeared, I was already getting too close to the deadline date and needed to work on implementing the other features. Although these show as errors, they have not seemed to effect the page in any way from what I could see on my end when looking at the live website. In the future I would like to find a work around to fix this so that there will not be any errors.
+
+<br>
+
+### ***Lighthouse***
+In this section I will discuss the results from the lighthouse option that is avaliable in the 'Chrome Dev Tools'. 
+
+#### Homepage Results
+* When the homepage was first designed, I ran lighthouse and the 'performance' results were quiet low to which I would have preferred and the reason for this was due to image file size, so I decided to compress the image file size to smaller ones to see whether this would make a change - and this had a small impact to the performance, and was better than beforehand.
+* The homepage has perfect 'accessibility' and 'SEO' scores, and a very high score for the 'best practices'.
+
+Before: <img src="assets/readme-images/homepage-lighthouse-results-before.png" alt="lighthouse homepage results">
+
+After: <img src="assets/readme-images/homepage-lighthouse-after.png" alt="lighthouse homepage results">
+
+#### Pizza Dough Results
+* The results for 'performance' for this page was moderate, not the best so I decided to also compress the image and video file size, however there wasn't much of a difference between the scores and no real impact was made, other than the loading speeds.
+* The other 3 scores were all very high compared to the performance, with the 'SEO' being the highest again, followed by 'accessibility', then 'best practices'.
+
+<img src="assets/readme-images/pizza-dough-lighthouse.png" alt="lighthouse pizza dough results">
+
+<br>
+
+#### Pizza Sauce Results
+* The 'performance' results for the pizza sauce were all high without having to change much of the image file sizes, this may be because there are less images to be processed on the page, so loading times were quicker.
+* The other 3 scores were all very high compared to the performance, with the 'SEO' being the highest again, followed by 'accessibility', then 'best practices'.
+
+<img src="assets/readme-images/pizza-sauce-lighthouse.png" alt="lighthouse pizza sauce results">
+
+<br>
+
+#### Pizza Toppings Page
+* The results for 'performance' for this page was moderate, not the best so I decided to also compress the image file size, however there wasn't much of a difference between the scores and no real impact was made, other than the loading speeds.
+* The other 3 scores were all very high compared to the performance, with the 'SEO' being the highest again, followed by 'accessibility', then 'best practices'.
+
+<img src="assets/readme-images/pizza-toppings-lighthouse.png" alt="lighthouse pizza toppings results">
+
+<br>
+
+### ***Responsiveness***
+To check responsiveness, I had used the [Am I Responsive](https://ui.dev/amiresponsive?) website for all my pages, and the recommended viewports that were listed on the website for: desktop, laptop, tablet, and mobile. 
+
+**The website was designed on a screen width of: 2500px**
+
+#### Desktop
+* All the pages are responsive for a desktop viewport for: 1600px x 992px
+
+#### Laptop
+* All the pages are responsive for a laptop viewport for: 1280px x 802px
+
+#### Tablet
+* All the pages are responsive for a tablet viewport of 768px x 1024px
+
+#### Mobile
+* All the pages are responsoive for a mobile viewport of 320px x 480px
+
+<br>
+
+Homepage: <br>
+<img src="assets/readme-images/am-i-responsive-updated.png" alt="Responsive design example" width="500">
+
+Pizza Dough Page: <br>
+<img src="assets/readme-images/dough-responsive.png" alt="Responsive design example" width="500">
+
+Pizza Sauce Page: <br>
+<img src="assets/readme-images/sauce-responsive.png" alt="Responsive design example" width="500">
+
+Pizza Toppings Page: <br>
+<img src="assets/readme-images/toppings-responsive.png" alt="Responsive design example" width="500">
