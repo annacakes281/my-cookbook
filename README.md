@@ -1,19 +1,62 @@
 # **My Cookbook**
 
-## *Introduction*
+## **Introduction**
 
 My Cookbook is an online cookbook that is aimed at the foodie community and those who love to make home-made food. 
 
 The site is targeted at anyone who enjoys cooking, with easy to follow recipes, aimed for various cooking and baking skill levels. The website hopes to accomplish a full online cookbook with various different types of cusines that people may like to eat and try.
 
-! (/assets/readme-images/homepage.png)
+<img src="assets/readme-images/homepage.png" alt="Homepage" title="Homepage">
+
+## **Table of Contents**
+<details open>
+<summary><a href="#features">Features</a></summary>
+<ul>
+<details>
+<summary><a href="#existing-features">Existing Features</a></summary>
+<li> Navigation Bar </li>
+<li> Homepage Image Bar </li>
+<li> About My Cookbook</li>
+<li> Recipe Image and Link </li>
+<li> The Footer </li>
+<li> Introduction to Page </li>
+<li> Instructions/Steps </li>
+</details>
+<details>
+<summary><a href="#features-left-to-implement">Features Left to Implement</a></summary>
+</ul>
+</details>
+<details>
+<summary><a href= "#testing">Testing</a></summary>
+<ul>
+<details>
+<summary><a href="#validator-testing">Validator Testing</a></summary>
+<li> HTML </li>
+<li> CSS </li>
+</details>
+<details>
+<summary><a href="#lighthouse">Lighthouse</a></summary>
+</details>
+<details>
+<summary><a href="#unfixed-bugs">Unfixed Bugs</a></summary>
+</ul>
+</details>
+<details>
+<summary><a href="#deployment">Deployment</a></summary>
+</details>
+<details>
+<summary><a href="#credits">Credits</a></summary>
+</details>
+
+<br>
+
+## **Features**
+
+In this section I will discuss the various features that I implemented in the design for the My Cookbook website, including future features that I would like ti implement and design for the website.
+
+### ***Existing Features***
 
 <!-- 
-
-introduction - one or two paragraphs on what the website is about, the intended users, what the website hopes to accomplish
-*add photo of the completed website shown on various screen size displays*
-
-possible add a contents table for the sections that will be discussed? 
 
 you can use bullet points to descibe each section!!
 
