@@ -61,20 +61,20 @@ The site is targeted at anyone who enjoys cooking, with easy to follow recipes, 
 <details>
 <summary><a href="#deployment">Deployment</a></summary>
 <ul>
-<li> GitHub </li>
+<li> GitHub Pages</li>
 </ul>
 </details>
 <details>
 <summary><a href="#credits">Credits</a></summary>
 <ul>
-<li> Other </li>
+<li> Content </li>
 </ul>
 </details>
 
 <br>
 
 ## **Features**
-In this section I will discuss the various features that I implemented in the design for the My Cookbook website, including future features that I would like ti implement and design for the website.
+In this section I will discuss the various features that I implemented in the design for the My Cookbook website, including future features that I would like to implement and design for the website.
 
 <img src="assets/readme-images/am-i-responsive-updated.png" alt="Responsive design example">
 
@@ -92,7 +92,7 @@ In this section I will discuss the various features that I implemented in the de
 <br>
 
 #### Homepage Image Bar
-* The image bar is featured on the home page for the website, and has five different photos of home-made foods, this was a feature that I thought fitted in well with the concept of a cookbook, as they are all home-made recipes that I had made myself in the past.
+* The image bar is featured on the home page for the website, and has five different photos of home-made meals, this was a feature that I thought fitted in well with the concept of a cookbook, as they are all home-made recipes that I had made myself in the past.
 * Hopefully this sort of feature will inspire others to what they can achieve and accomplish by cooking home-made meals.
 
 <img src="assets/readme-images/image-bar.png" alt="Homepage image bar displaying 5 photos">
@@ -230,6 +230,7 @@ After: <img src="assets/readme-images/homepage-lighthouse-after.png" alt="lighth
 #### Pizza Dough Results
 * The results for 'performance' for this page was moderate, not the best so I decided to also compress the image and video file size, however there wasn't much of a difference between the scores and no real impact was made, other than the loading speeds.
 * The other 3 scores were all very high compared to the performance, with the 'SEO' being the highest again, followed by 'accessibility', then 'best practices'.
+* The checkboxes and media all include an 'aria-label'.
 
 <img src="assets/readme-images/pizza-dough-lighthouse.png" alt="lighthouse pizza dough results">
 
@@ -238,6 +239,7 @@ After: <img src="assets/readme-images/homepage-lighthouse-after.png" alt="lighth
 #### Pizza Sauce Results
 * The 'performance' results for the pizza sauce were all high without having to change much of the image file sizes, this may be because there are less images to be processed on the page, so loading times were quicker.
 * The other 3 scores were all very high compared to the performance, with the 'SEO' being the highest again, followed by 'accessibility', then 'best practices'.
+* The checkboxes and media all include an 'aria-label'.
 
 <img src="assets/readme-images/pizza-sauce-lighthouse.png" alt="lighthouse pizza sauce results">
 
@@ -246,6 +248,7 @@ After: <img src="assets/readme-images/homepage-lighthouse-after.png" alt="lighth
 #### Pizza Toppings Page
 * The results for 'performance' for this page was moderate, not the best so I decided to also compress the image file size, however there wasn't much of a difference between the scores and no real impact was made, other than the loading speeds.
 * The other 3 scores were all very high compared to the performance, with the 'SEO' being the highest again, followed by 'accessibility', then 'best practices'.
+* The checkboxes and media all include an 'aria-label'.
 
 <img src="assets/readme-images/pizza-toppings-lighthouse.png" alt="lighthouse pizza toppings results">
 
@@ -281,3 +284,59 @@ Pizza Sauce Page: <br>
 
 Pizza Toppings Page: <br>
 <img src="assets/readme-images/toppings-responsive.png" alt="Responsive design example" width="500">
+
+<br>
+
+#### Future Implementations
+* In the future I would like to code further responsiveness for all different types of viewports for the varierty of screensizes avaliable so that the content displays correctly and flows on each screen size.
+
+<br>
+
+## *Deployment*
+In this section I will talk about the process I went through to deploy my website to the web so that it was live. In order to to this, I used a hosting platform called GitHub to create my website.
+
+### **GitHub Pages**
+* The site was deployed to GitHub pages, the steps in which to do this is as follows:
+  * From the GitHub repository in the browser, go across to the settings tab
+  * From the settings tab, select the pages option from the choices on the right-hand side
+  * After this, go to the section that says 'branch' and click on 'main' and then select the 'root' file
+  * Click save, and then after a few minutes there will be a URL that you can access to visit the website
+
+  <img src="assets/readme-images/github-pages.png" alt="Github pages deployment">
+
+The live link for My Cookbook is: https://annacakes281.github.io/my-cookbook/index.html
+
+<br>
+
+## *Credits*
+This section will contain all sources and credits that I used to help build my website, with links to the corresponding websites.
+
+### **Content**
+
+#### Font Awesome
+* For the icons used throughout the pages I used [Font Awesome](https://fontawesome.com/)
+#### Google Fonts
+* For the custom fonts used throughout the pages I used [Google Fonts](https://fonts.google.com/)
+#### Colour Picker
+* To help choose the colours and check contrast I used [Image colour picker](https://imagecolorpicker.com/color-code/2596be)
+#### Emojis
+* To add emojis I used [emoji code](https://www.w3schools.com/charsets/ref_emoji_smileys.asp)
+#### Nav Bar
+* I liked the idea from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode) project for the nav bar, inclduing the active function - however I did amend the code to suit how I wanted it to display on my page.
+#### Image and Video Converter and Compresser
+* All media used on the website is my own media. however I did need to convert the file types, and then compress them
+* [Image converter](https://image.online-convert.com/convert/jpeg-to-jpg) from jpeg to jpg
+* [Video converter](https://www.movavi.com/support/how-to/how-to-convert-video-to-mp4.html) from movie file to mp4
+* [Image compresser](https://www.img2go.com/compress-image ) to compress image file sizes
+* [Video compresser](https://www.xconvert.com/compress-mp4) to compress video file sizes
+#### Checkbox Style Code
+* To help align and style my checkboxes, I used the following website https://stackoverflow.com/questions/306252/how-to-align-checkboxes-and-their-labels-consistently-cross-browsers , however I did change the code to suite how I wanted it to display on my webpage
+
+<img src="assets/readme-images/checkbox-code.png" alt="My code for checkbox alignment">
+
+#### Ordered List Missing Numbers
+* I noticed that my ordered lists were missing their default numbers so used [ordered list showing un-numbered](https://stackoverflow.com/questions/2642067/ordered-list-ol-showing-up-un-numbered) to help fix this, I kept the same code from this page
+#### Image Row on Homepage
+* To get the image row on the homepage to stick together in a row, I used the following website https://www.w3schools.com/howto/howto_css_images_side_by_side.asp , however I did changhe the code to suite how I wanted it to display on my webpage
+
+<img src="assets/readme-images/code-for-home-page-image-row.png" alt="My code for image row">
