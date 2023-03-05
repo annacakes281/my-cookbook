@@ -1,4 +1,14 @@
-<!-- title of the project
+# **My Cookbook**
+
+## *Introduction*
+
+My Cookbook is an online cookbook that is aimed at the foodie community and those who love to make home-made food. 
+
+The site is targeted at anyone who enjoys cooking, with easy to follow recipes, aimed for various cooking and baking skill levels. The website hopes to accomplish a full online cookbook with various different types of cusines that people may like to eat and try.
+
+! (/assets/readme-images/homepage.png)
+
+<!-- 
 
 introduction - one or two paragraphs on what the website is about, the intended users, what the website hopes to accomplish
 *add photo of the completed website shown on various screen size displays*
