@@ -1,0 +1,228 @@
+Unused CSS Code:
+
+/* for screens between 1440px - equalivent from large laptop screens */
+
+@media screen and (max-width: 1440px) and (min-width: 1440px) {
+
+  #menu li {
+    float: left;
+    margin-left: -123px;
+    margin-right: 160px;
+    font-size: 110%;
+}
+
+  .socials {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  /* home page */
+
+  .center {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: -80px;
+    margin-left: 300px;
+}
+
+  .column {
+    float: left;
+    width: 15%;
+    padding: 1px;
+}
+
+.about {
+  margin-right: 10%;
+  text-align: center;
+  font-size: x-large;
+  margin-top: -80px;
+  margin-left: 5%;
+}
+
+.inline {
+  display: inline-block;
+  margin-left: 1%;
+  clear: both;
+  position: relative;
+  bottom: 140px;
+  right: 1px;
+}
+
+/* pizza dough */
+
+#pizza-dough-list-steps {
+  margin-top: 1%;
+  margin-left: 21%;
+  text-indent: 5px;
+  font-size: x-large;
+}
+
+#dough-ingredients {
+  margin-left: 21%;
+}
+.pizza-dough-instructions {
+  margin-top: 1%;
+  margin-left: 21%;
+  margin-right: 18%;
+  font-size: x-large;
+}
+/* pizza sauce */
+
+#pizza-sauce-equipment {
+  margin-top: 1.5%;
+  margin-left: 24%;
+  font-size: x-large;
+}
+
+#pizza-sauce-ingredients {
+  margin-top: -9.99%;
+  margin-left: 50%;
+  margin-right: 10%;
+  font-size: x-large;
+}
+
+#pizza-sauce-steps {
+  margin-top: -9%;
+  margin-left: 24%;
+  margin-right: 10%;
+  font-size: x-large;
+}
+
+/* pizza toppings */
+
+#toppings-equipment {
+  margin-left: 19%;
+}
+
+#toppings-ingredients {
+  margin-left: 40%;
+  margin-top: -26%;
+  padding: 200px;
+}
+
+#toppings-steps {
+  margin-left: 19%;
+  margin-top: -15%;
+}
+
+#pizza-cooking {
+  margin-left: 19%;
+  margin-right: 16%;
+}
+
+}
+
+/* extra media queries for screens between 768px-1024px - equalivent to tablet and small laptop, that didn't fit perfectly with the same style as above so some small changes needed to be made specifically for these */
+
+@media screen and (max-width: 1024px) and (min-width: 1024px) {
+
+  #menu li {
+    float: left;
+    margin-left: -135px;
+    margin-right: 160px;
+    font-size: 110%;
+  }
+
+  .center {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: -100px;
+    margin-left: 230px;
+}
+
+.homepage-images {
+  width: 250px;
+  height: 250px;
+  border-radius: 35%;
+  margin-right: 50%;
+  margin-left: 55%;
+  margin-bottom: 10%;
+}
+
+.inline {
+  display: inline-block;
+  margin-left: 1%;
+  clear: both;
+  position: relative;
+  bottom: -55px;
+  right: 120px;
+}
+
+.margin-space {
+  margin-top: -7%;
+  margin-bottom: 3%;
+  font-size: 158%;
+}
+
+.pizza-dough-instructions {
+  margin-top: 2%;
+  margin-left: 17%;
+  font-size: x-large;
+  margin-right: 5%;
+}
+
+.pizza-dough-single {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -12% 1% 25%;
+}
+
+#pizza-dough-ingredients {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -12% 1% 25%;
+}
+
+.pizza-videos {
+  margin-left: 17%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.pizza-dough-images {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -12% 1% 16%;
+}
+
+#pizza-sauce {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -12% 1% 20%;
+}
+
+.sauce {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% -12% 1% 20%;
+}
+
+.pizza-topping-images {
+  width: 225px;
+  height: 225px;
+  border-radius: 40%;
+  margin: 2% -15% 1% 16%;
+}
+
+.pizza-topping-single {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin-left: 30%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+#toppings {
+  width: 250px;
+  height: 250px;
+  border-radius: 40%;
+  margin: 1% 0 1% 25%;
+}
+
+}
